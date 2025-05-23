@@ -1,0 +1,23 @@
+{
+  "name": "tsgo-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "typecheck-go": "tsgo --noEmit"
+  },
+  "author": "Justin Smid <justin250899@hotmail.com>",
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "typescript": "5.8.3",
+    "@typescript/native-preview": "7.0.0-dev.20250523.1",
+    "vite": "^6.3.5"
+  }
+}
